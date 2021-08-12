@@ -1,14 +1,13 @@
+
 package ClassDevSaudavel;
 
-import java.util.List;
-import java.util.Scanner;
 
 public class Produto {
 	//========================ATRIBUTOS=========================
-	protected String codProduto;
-	protected String produto;
-	protected double preco;
-	protected int estoque;
+	private String codProduto;
+	private String produto;
+	private double preco;
+	private int estoque;
 	
 	//============================ CONSTRUTORES ================================
 	
@@ -76,6 +75,6 @@ public class Produto {
             this.estoque = this.estoque - quantidade;
         }
     }
-    
+
 
 }
